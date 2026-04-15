@@ -1,5 +1,5 @@
 import requests
-
+#teste
 base_url = "https://pokeapi.co/api/v2"
 
 def get_pokemon(name):

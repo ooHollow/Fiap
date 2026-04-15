@@ -11,7 +11,7 @@ def get_pokemon(name):
     else:
         print(f'Failed to get pokemon {response}')
 
-poke_name = "pikachu"
+poke_name = input("Pokemon name: ").lower()
 pokemon_info = get_pokemon(poke_name)
 
 if pokemon_info:

@@ -1,4 +1,4 @@
-def rle_encode(string: str):
+def solution(string: str):
     if not string:
         return ""
     lista = []
@@ -13,4 +13,4 @@ def rle_encode(string: str):
             count = 1
     lista.append(f"{count}{prev_char}")
     return "".join(lista)
-print(rle_encode("AAAABBBCCDAA"))
+print(solution("AAAABBBCCDAA"))
